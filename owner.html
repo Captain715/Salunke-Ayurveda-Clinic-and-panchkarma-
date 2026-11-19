@@ -10,7 +10,7 @@
 </style></head>
 <body><header class="top"><div class="brand">SALUNKE AYURVED <small>PRIVATE OWNER PORTAL · CHAKAN</small></div><div><a href="./" style="color:#dfc99b;font-size:11px;margin-right:14px">VIEW WEBSITE ↗</a><button id="logoutTop" class="btn ghost hidden" onclick="logout()">SIGN OUT</button></div></header>
 <section id="loginView" class="login"><p style="color:var(--gold);font-weight:800;letter-spacing:2px;font-size:9px">SECURE ACCESS</p><h1>Owner sign in.</h1><p class="muted">This portal is only for authorised clinic owners. Patient accounts cannot access it.</p>
-<div id="configBox"><label>Supabase project URL</label><input id="sbUrl" placeholder="https://your-project.supabase.co"><label>Supabase publishable key</label><input id="sbKey" placeholder="sb_publishable_..."><p class="hint">Use the public publishable/anon key only. Never enter a service-role or secret key. If configured on the main website in this browser, these fields may already be filled.</p></div>
+
 <label>Owner email</label><input id="email" type="email" autocomplete="username" placeholder="Owner email"><label>Password</label><input id="password" type="password" autocomplete="current-password" placeholder="Password">
 <div class="form-actions"><button class="btn" onclick="login()">SIGN IN TO OWNER PORTAL</button></div><div id="loginMsg" class="message" role="status"></div><p class="hint">Owner access is verified against the protected database role after sign-in. Creating a normal patient account does not grant owner access.</p></section>
 <div id="app" class="wrap hidden"><div class="layout"><nav class="side" id="nav">
